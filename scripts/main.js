@@ -5,11 +5,18 @@
   const FRAME_RATE = 60
   const PARTICLE_NUM = 2000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 500
-  const CANVASHEIGHT = 150
+  const CANVASWIDTH = 1000
+  const CANVASHEIGHT = 200
   const CANVASID = 'canvas'
 
-  let texts = ['MY DEAR', 'LOOK UP AT THE', 'STARRY SKY', 'ARE YOU', 'LOOKING AT THE', 'SAME STAR', 'WITH ME ?', 'HAPPY', 'CHINESE', 'VALENTINE\'S', 'DAY', 'I MISS YOU']
+  let texts = ['MY DEAR',
+    '杨紫欣',
+    '我希望你',
+    '一直那么好看','那么我就会只想','和你睡觉',':) HAHAHA',
+    '你念或是不念','情就在那里','不来 不去',
+    '你跟或是不跟我','我的手就在那里','不舍不弃',
+    '陌上花开', '可徐徐而归', '我想你了','情人节快乐！']
+
 
   let canvas,
     ctx,
